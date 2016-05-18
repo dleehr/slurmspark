@@ -6,7 +6,7 @@
 #SBATCH --ntasks-per-node 1 
 #this does not change number of processes created below
 #SBATCH --cpus-per-task 4
-export SPARK_HOME=/home/jpb67/spark-1.6.1-bin-hadoop2.6
+export SPARK_HOME=/home/dcl9/spark/spark-1.6.1-bin-hadoop2.6
 export SPARK_SBIN=$SPARK_HOME/sbin
 export SPARK_BIN=$SPARK_HOME/bin
 module load jdk/1.8.0_45-fasrc01
